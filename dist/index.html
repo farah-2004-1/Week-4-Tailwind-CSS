@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="./output.css" rel="stylesheet">
+    <title>Portfolio Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-black text-white font-[Poppins]">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full flex justify-between items-center px-9 py-4 bg-transparent z-50 shadow">
+    <a href="#" class="text-3xl font-extrabold text-[#b74b4b] hover:scale-110 transition">Farah</a>
+    <nav class="space-x-6">
+      <a href="#home" class="text-lg hover:text-[#b74b4b] border-b-2 border-transparent hover:border-[#b74b4b]">Home</a>
+      <a href="#about" class="text-lg hover:text-[#b74b4b] border-b-2 border-transparent hover:border-[#b74b4b]">About</a>
+      <a href="#skills" class="text-lg hover:text-[#b74b4b] border-b-2 border-transparent hover:border-[#b74b4b]">Skills</a>
+      <a href="#projects" class="text-lg hover:text-[#b74b4b] border-b-2 border-transparent hover:border-[#b74b4b]">Projects</a>
+      <a href="#contact" class="text-lg hover:text-[#b74b4b] border-b-2 border-transparent hover:border-[#b74b4b]">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-10 px-9">
+    <div class="rounded-full overflow-hidden shadow-lg">
+      <img src="xxxxx.png" alt="Farah" class="w-[32vw] rounded-full hover:scale-105 transition duration-300">
+    </div>
+    <div>
+      <h1 class="text-6xl font-bold mb-4">Hi, It's <span class="text-[#b74b4b]">Farah</span></h1>
+      <h3 class="text-4xl font-semibold mb-2">I'm a <span class="text-[#b74b4b]">Software Developer</span></h3>
+      <p class="max-w-2xl leading-7 text-lg">Welcome! My name is Farah Ali Dodeen, a passionate Computer Engineering student at Palestine Technical University – Kadoorie. I come from a beautiful rural area near Dura, Hebron. I have a strong interest in programming, software development, and technology in general.</p>
+      <div class="flex space-x-4 mt-6">
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-[#b74b4b] hover:bg-[#b74b4b] hover:text-black transition"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-[#b74b4b] hover:bg-[#b74b4b] hover:text-black transition"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-[#b74b4b] hover:bg-[#b74b4b] hover:text-black transition"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-[#b74b4b] hover:bg-[#b74b4b] hover:text-black transition"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-[#b74b4b] hover:bg-[#b74b4b] hover:text-black transition"><i class="fab fa-github"></i></a>
+      </div>
+      <a href="#contact" class="inline-block mt-4 px-6 py-3 rounded-full border-2 border-[#b74b4b] text-[#b74b4b] font-semibold hover:bg-[#b74b4b] hover:text-white transition">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="min-h-screen px-9 py-16 text-center">
+    <h2 class="text-3xl text-[#b74b4b] mb-6">About <span class="text-white">Me</span></h2>
+    <p class="max-w-2xl mx-auto text-lg leading-7 text-justify">
+      My name is <b>Farah Ali Dodeen</b>, Computer Engineering student at <b>Palestine Technical University – Kadoorie</b>. 
+      Coming from <b>Dura - Karza, Hebron</b>, I’m passionate about technology, problem solving, 
+      and creating useful software solutions.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="min-h-screen px-9 py-16 text-center">
+    <h2 class="text-3xl text-[#b74b4b] mb-6">My <span class="text-white">Skills</span></h2>
+    <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-3xl mx-auto">
+      <li class="border border-[#b74b4b] p-3 rounded-lg hover:bg-[#b74b4b] hover:text-white transition">C++</li>
+      <li class="border border-[#b74b4b] p-3 rounded-lg hover:bg-[#b74b4b] hover:text-white transition">Java</li>
+      <li class="border border-[#b74b4b] p-3 rounded-lg hover:bg-[#b74b4b] hover:text-white transition">Python</li>
+      <li class="border border-[#b74b4b] p-3 rounded-lg hover:bg-[#b74b4b] hover:text-white transition">MySQL / SQL</li>
+      <li class="border border-[#b74b4b] p-3 rounded-lg hover:bg-[#b74b4b] hover:text-white transition">Visual Basic</li>
+      <li class="border border-[#b74b4b] p-3 rounded-lg hover:bg-[#b74b4b] hover:text-white transition">Computer Maintenance</li>
+      <li class="border border-[#b74b4b] p-3 rounded-lg hover:bg-[#b74b4b] hover:text-white transition">Some Multimedia</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="min-h-screen px-9 py-16 text-center">
+    <h2 class="text-3xl text-[#b74b4b] mb-6">My <span class="text-white">Projects</span></h2>
+    <ul class="max-w-xl mx-auto text-left">
+      <li class="border-l-4 border-[#b74b4b] pl-4 py-2 hover:bg-[#b74b4b]/20 transition">Food Sustainability</li>
+      <li class="border-l-4 border-[#b74b4b] pl-4 py-2 hover:bg-[#b74b4b]/20 transition">Smart Supermarket System</li>
+      <li class="border-l-4 border-[#b74b4b] pl-4 py-2 hover:bg-[#b74b4b]/20 transition">Linguasign</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="min-h-screen px-9 py-16 text-center">
+    <h2 class="text-3xl text-[#b74b4b] mb-6">Contact <span class="text-white">Me</span></h2>
+    <p class="text-lg mb-2">📧 Email: <a href="mailto:FARAHALI@GEMAL.COM" class="text-[#b74b4b] hover:text-white">FARAHALI@GEMAL.COM</a></p>
+    <p class="text-lg mb-2">📞 Phone: <a href="tel:05999555111" class="text-[#b74b4b] hover:text-white">05999555111</a></p>
+    <p class="text-lg mb-6">📍 Address: Dura - Karza, Hebron</p>
+
+    <form action="mailto:FARAHALI@GEMAL.COM" method="post" enctype="text/plain" class="max-w-xl mx-auto flex flex-col gap-4">
+      <input type="text" name="name" placeholder="Your Name" required class="p-3 border-2 border-[#b74b4b] rounded bg-black text-white focus:border-white focus:shadow-lg">
+      <input type="email" name="email" placeholder="Your Email" required class="p-3 border-2 border-[#b74b4b] rounded bg-black text-white focus:border-white focus:shadow-lg">
+      <textarea name="message" rows="5" placeholder="Your Message" required class="p-3 border-2 border-[#b74b4b] rounded bg-black text-white focus:border-white focus:shadow-lg"></textarea>
+      <button type="submit" class="px-6 py-3 rounded-full border-2 border-[#b74b4b] text-[#b74b4b] font-semibold hover:bg-[#b74b4b] hover:text-white transition">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
